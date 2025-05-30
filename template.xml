@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Container>
+  <Name>DoDash</Name>
+  <Repository>dbhere82/dodash:latest</Repository>
+  <Registry>https://hub.docker.com/r/dbhere82/dodash</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Ddave82/DoDash</Support>
+  <Project>https://github.com/Ddave82/DoDash</Project>
+  <Overview>A minimalistic, dark-themed task manager with support for multiple lists and a clean UI.</Overview>
+  <Category>Productivity: Task Management</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Ddave82/dodash-unraid-template/main/template.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Ddave82/DoDash/main/assets/Screenshot.png</Icon>
+
+  <Config Name="WebUI Port" Target="3000" Default="3000" Mode="http" Description="Port für den Webzugriff auf DoDash" Type="Port" Display="always" Required="true" Mask="false"/>
+</Container>
