@@ -1,5 +1,9 @@
 # DoDash Unraid Template
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/Ddave82/DoDash/main/assets/Screenshot.png" alt="DoDash Screenshot" width="60%" />
+</p>
+
 This repository provides the Unraid Community Applications template for **DoDash** – a minimal, dark-themed task management app with multiple lists and color customization.
 
 ## 🐳 App Info
@@ -11,13 +15,14 @@ This repository provides the Unraid Community Applications template for **DoDash
 ## ⚙️ How to use
 
 1. Add this template repository to your Unraid Community Applications settings.
-2. Search for **DoDash** in the Apps tab.
-3. Install and configure container settings (e.g., ports, volume paths).
+2. Open the **Apps** tab in Unraid and search for **DoDash**.
+3. Install and configure container settings (e.g., ports and volume paths).
 
-## 🧾 Features
+## ✨ Features
 
-- Multiple to-do lists with custom names
-- Tasks with completion tracking
 - Dark mode UI
-- Color picker for custom themes
-- Responsive layout for desktop & mobile
+- Multiple to-do lists (create, rename, delete)
+- Tasks (add, complete, delete)
+- Completed tasks appear greyed out and can be cleared
+- Color customization with a built-in picker
+- Responsive design (desktop & mobile)
